@@ -33,7 +33,7 @@ if(syus[i]>syus[k])
  btime[i]=btime[k];
  btime[k]=temp;
  
- temp=syus[i];
+temp=syus[i];
  syus[i]=syus[k];
  syus[k]=temp;
 }
