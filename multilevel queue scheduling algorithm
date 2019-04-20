@@ -6,3 +6,12 @@ int pr[15],btime[15],syus[15],wtime[15],tat[15],i,k,n,temp;
 float wtimeavg, tatavg;
 printf("Enter the number of processes - ");
 scanf("%d",&n);
+for(i=0;i<n;i++)
+{
+pr[i]= i;
+printf("Enter the Burst Time of Process %d --- ", i);
+scanf("%d",&btime[i]);
+p1:
+printf("Press 1 for System process:\n");
+printf("Press 2 for User process:\n");
+scanf("%d", &syus[i]);
