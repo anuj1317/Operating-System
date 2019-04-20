@@ -15,7 +15,7 @@ p1:
 printf("Press 1 for System process:\n");
 printf("Press 2 for User process:\n");
 scanf("%d", &syus[i]);
-if(syus[i]>=3)
+if(syus[i]>3)
  {
  printf("Priority should be between 0 to 3\n");
  goto p1;
