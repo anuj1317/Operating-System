@@ -1,0 +1,8 @@
+# Operating-System
+operating system project
+
+####
+Write a C program to simulate multi-level queue scheduling algorithm considering the following scenario. All
+the processes in the system are divided into two categories – system processes and user processes. System
+processes are to be given higher priority than user processes. The priority of each process ranges from 1 to 3.
+Use fixed priority scheduling for all the processes.
