@@ -1,0 +1,8 @@
+#include <stdio.h>
+#include <conio.h>
+int main()
+{
+int pr[15],btime[15],syus[15],wtime[15],tat[15],i,k,n,temp;
+float wtimeavg, tatavg;
+printf("Enter the number of processes - ");
+scanf("%d",&n);
