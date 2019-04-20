@@ -20,4 +20,20 @@ if(syus[i]>=3)
  printf("Priority should be between 0 to 3\n");
  goto p1;
  }
+for(i=0;i<n;i++)
+for(k=i+1;k<n;k++)
+if(syus[i]>syus[k])
+{
+ temp=pr[i];
+ pr[i]=pr[k];
+ pr[k]=temp;
+ 
+ temp=btime[i];
+ btime[i]=btime[k];
+ btime[k]=temp;
+ 
+ temp=syus[i];
+ syus[i]=syus[k];
+ syus[k]=temp;
+}
 
